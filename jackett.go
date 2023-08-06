@@ -58,6 +58,7 @@ type Result struct {
 	Category             []uint
 	CategoryDesc         string
 	Comments             string
+	Details              string
 	Description          string
 	DownloadVolumeFactor float32
 	Files                uint
@@ -78,9 +79,13 @@ type Result struct {
 	Size                 uint
 	TMDb                 uint
 	TVDBId               uint
+	TVMazeId             uint
+	TraktId              uint
+	DoubanId             uint
 	Title                string
 	Tracker              string
 	TrackerId            string
+	TrackerType          string
 	UploadVolumeFactor   float32
 }
 

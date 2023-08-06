@@ -1,6 +1,6 @@
-module github.com/webtor-io/go-jackett
+module github.com/wmw64/go-jackett
 
-go 1.15
+go 1.20
 
 require (
 	github.com/pkg/errors v0.9.1
